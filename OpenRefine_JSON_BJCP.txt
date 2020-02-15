@@ -1,0 +1,2041 @@
+[
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Overall Impression/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Overall Impression",
+    "columnInsertIndex": 1,
+    "description": "Create column Overall Impression at index 1 based on column Column 1 using expression grel:partition(value, /Overall Impression/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Aroma/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Aroma",
+    "columnInsertIndex": 1,
+    "description": "Create column Aroma at index 1 based on column Column 1 using expression grel:partition(value, /Aroma/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Appearance/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Appearance",
+    "columnInsertIndex": 1,
+    "description": "Create column Appearance at index 1 based on column Column 1 using expression grel:partition(value, /Appearance/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Flavor/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Flavor",
+    "columnInsertIndex": 1,
+    "description": "Create column Flavor at index 1 based on column Column 1 using expression grel:partition(value, /Flavor/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Mouthfeel/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Mouthfeel",
+    "columnInsertIndex": 1,
+    "description": "Create column Mouthfeel at index 1 based on column Column 1 using expression grel:partition(value, /Mouthfeel/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Comments/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Comments",
+    "columnInsertIndex": 1,
+    "description": "Create column Comments at index 1 based on column Column 1 using expression grel:partition(value, /Comments/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /History/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "History",
+    "columnInsertIndex": 1,
+    "description": "Create column History at index 1 based on column Column 1 using expression grel:partition(value, /History/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Characteristic Ingredients/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Characteristic Ingredients",
+    "columnInsertIndex": 1,
+    "description": "Create column Characteristic Ingredients at index 1 based on column Column 1 using expression grel:partition(value, /Characteristic Ingredients/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Style Comparison/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Style Comparison",
+    "columnInsertIndex": 1,
+    "description": "Create column Style Comparison at index 1 based on column Column 1 using expression grel:partition(value, /Style Comparison/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Commercial Examples/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Commercial Examples",
+    "columnInsertIndex": 1,
+    "description": "Create column Commercial Examples at index 1 based on column Column 1 using expression grel:partition(value, /Commercial Examples/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Tags/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Tags",
+    "columnInsertIndex": 1,
+    "description": "Create column Tags at index 1 based on column Column 1 using expression grel:partition(value, /Tags/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Vital Statistics/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Vital Statistics",
+    "columnInsertIndex": 1,
+    "description": "Create column Vital Statistics at index 1 based on column Column 1 using expression grel:partition(value, /Vital Statistics/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /\\d+[.].+/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Family",
+    "columnInsertIndex": 1,
+    "description": "Create column Family at index 1 based on column Column 1 using expression grel:partition(value, /\\d+[.].+/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /\\d+[A-Z][.].+/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "Style",
+    "columnInsertIndex": 1,
+    "description": "Create column Style at index 1 based on column Column 1 using expression grel:partition(value, /\\d+[A-Z][.].+/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Historical Beer: /)[2]",
+    "onError": "set-to-blank",
+    "newColumnName": "Historical Sub-style",
+    "columnInsertIndex": 1,
+    "description": "Create column Historical Sub-style at index 1 based on column Column 1 using expression grel:partition(value, /Historical Beer: /)[2]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:partition(value, /Specialty IPA: /)[2]",
+    "onError": "set-to-blank",
+    "newColumnName": "Specialty IPA Sub-style",
+    "columnInsertIndex": 1,
+    "description": "Create column Specialty IPA Sub-style at index 1 based on column Column 1 using expression grel:partition(value, /Specialty IPA: /)[2]"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Column 1",
+          "columnName": "Column 1",
+          "query": "...",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Family",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Family using expression \"\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Style",
+          "columnName": "Style",
+          "query": "...",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Style",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Style using expression \"\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Specialty IPA Sub-style",
+          "columnName": "Specialty IPA Sub-style",
+          "query": "...",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Specialty IPA Sub-style",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Specialty IPA Sub-style using expression \"\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Historical Sub-style",
+          "columnName": "Historical Sub-style",
+          "query": "...",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Historical Sub-style",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Historical Sub-style using expression \"\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Family",
+          "columnName": "Family",
+          "query": "â€“",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Family",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Family using expression \"\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Family",
+          "expression": "value",
+          "columnName": "Family",
+          "invert": true,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "21. IPA",
+                "l": "21. IPA"
+              }
+            },
+            {
+              "v": {
+                "v": "22. STRONG AMERICAN ALE",
+                "l": "22. STRONG AMERICAN ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "7. AMBER BITTER EUROPEAN BEER",
+                "l": "7. AMBER BITTER EUROPEAN BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "20. AMERICAN PORTER AND STOUT",
+                "l": "20. AMERICAN PORTER AND STOUT"
+              }
+            },
+            {
+              "v": {
+                "v": "3. CZECH LAGER",
+                "l": "3. CZECH LAGER"
+              }
+            },
+            {
+              "v": {
+                "v": "19. AMBER AND BROWN AMERICAN BEER",
+                "l": "19. AMBER AND BROWN AMERICAN BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "13. BROWN BRITISH BEER",
+                "l": "13. BROWN BRITISH BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "23. EUROPEAN SOUR ALE",
+                "l": "23. EUROPEAN SOUR ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "30. SPICED BEER",
+                "l": "30. SPICED BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "29. FRUIT BEER",
+                "l": "29. FRUIT BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "4. PALE MALTY EUROPEAN LAGER",
+                "l": "4. PALE MALTY EUROPEAN LAGER"
+              }
+            },
+            {
+              "v": {
+                "v": "8. DARK EUROPEAN LAGER",
+                "l": "8. DARK EUROPEAN LAGER"
+              }
+            },
+            {
+              "v": {
+                "v": "28. AMERICAN WILD ALE",
+                "l": "28. AMERICAN WILD ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "26. TRAPPIST ALE",
+                "l": "26. TRAPPIST ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "27. HISTORICAL BEER",
+                "l": "27. HISTORICAL BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "34. SPECIALTY BEER",
+                "l": "34. SPECIALTY BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "6. AMBER MALTY EUROPEAN LAGER",
+                "l": "6. AMBER MALTY EUROPEAN LAGER"
+              }
+            },
+            {
+              "v": {
+                "v": "33. WOOD BEER",
+                "l": "33. WOOD BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "25. STRONG BELGIAN ALE",
+                "l": "25. STRONG BELGIAN ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "10. GERMAN WHEAT BEER",
+                "l": "10. GERMAN WHEAT BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "17. STRONG BRITISH ALE",
+                "l": "17. STRONG BRITISH ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "9. STRONG EUROPEAN BEER",
+                "l": "9. STRONG EUROPEAN BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "15. IRISH BEER",
+                "l": "15. IRISH BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "32. SMOKED BEER",
+                "l": "32. SMOKED BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "31. ALTERNATIVE FERMENTABLES BEER",
+                "l": "31. ALTERNATIVE FERMENTABLES BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "24. BELGIAN ALE",
+                "l": "24. BELGIAN ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "12. PALE COMMONWEALTH BEER",
+                "l": "12. PALE COMMONWEALTH BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "1. STANDARD AMERICAN BEER",
+                "l": "1. STANDARD AMERICAN BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "14. SCOTTISH ALE",
+                "l": "14. SCOTTISH ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "2. INTERNATIONAL LAGER",
+                "l": "2. INTERNATIONAL LAGER"
+              }
+            },
+            {
+              "v": {
+                "v": "11. BRITISH BITTER",
+                "l": "11. BRITISH BITTER"
+              }
+            },
+            {
+              "v": {
+                "v": "16. DARK BRITISH BEER",
+                "l": "16. DARK BRITISH BEER"
+              }
+            },
+            {
+              "v": {
+                "v": "18. PALE AMERICAN ALE",
+                "l": "18. PALE AMERICAN ALE"
+              }
+            },
+            {
+              "v": {
+                "v": "5. PALE BITTER EUROPEAN BEER",
+                "l": "5. PALE BITTER EUROPEAN BEER"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Family",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Family using expression \"\""
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Specialty IPA Sub-style",
+    "expression": "grel:cells[\"Specialty IPA Sub-style\"].value + cells[\"Historical Sub-style\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "Sub-style",
+    "columnInsertIndex": 2,
+    "description": "Create column Sub-style at index 2 based on column Specialty IPA Sub-style using expression grel:cells[\"Specialty IPA Sub-style\"].value + cells[\"Historical Sub-style\"].value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Sub-style",
+    "expression": "grel:cells[\"Family\"].value + cells[\"Style\"].value + cells[\"Sub-style\"].value + cells[\"Overall Impression\"].value + cells[\"Aroma\"].value + cells[\"Appearance\"].value + cells[\"Flavor\"].value + cells[\"Mouthfeel\"].value + cells[\"Comments\"].value + cells[\"History\"].value + cells[\"Characteristic Ingredients\"].value + cells[\"Style Comparison\"].value + cells[\"Vital Statistics\"].value + cells[\"Commercial Examples\"].value + cells[\"Tags\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "My_tags",
+    "columnInsertIndex": 3,
+    "description": "Create column My_tags at index 3 based on column Sub-style using expression grel:cells[\"Family\"].value + cells[\"Style\"].value + cells[\"Sub-style\"].value + cells[\"Overall Impression\"].value + cells[\"Aroma\"].value + cells[\"Appearance\"].value + cells[\"Flavor\"].value + cells[\"Mouthfeel\"].value + cells[\"Comments\"].value + cells[\"History\"].value + cells[\"Characteristic Ingredients\"].value + cells[\"Style Comparison\"].value + cells[\"Vital Statistics\"].value + cells[\"Commercial Examples\"].value + cells[\"Tags\"].value"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "My_tags",
+      "Column 1"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Column 1",
+    "keyColumnName": "My_tags",
+    "separator": " ",
+    "description": "Join multi-valued cells in column Column 1"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Column 1",
+          "columnName": "Column 1",
+          "query": "^[A-Z][.]",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Column 1",
+          "columnName": "Column 1",
+          "query": "^[A-Z][A-Z][.]",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d.\\d+/)[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "OG min",
+    "columnInsertIndex": 2,
+    "description": "Create column OG min at index 2 based on column Column 1 using expression grel:find(value, /\\d.\\d+/)[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d.\\d+/)[1]",
+    "onError": "set-to-blank",
+    "newColumnName": "OG max",
+    "columnInsertIndex": 2,
+    "description": "Create column OG max at index 2 based on column Column 1 using expression grel:find(value, /\\d.\\d+/)[1]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d+/)[4]",
+    "onError": "set-to-blank",
+    "newColumnName": "IBU min",
+    "columnInsertIndex": 2,
+    "description": "Create column IBU min at index 2 based on column Column 1 using expression grel:find(value, /\\d+/)[4]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d+/)[5]",
+    "onError": "set-to-blank",
+    "newColumnName": "IBU max",
+    "columnInsertIndex": 2,
+    "description": "Create column IBU max at index 2 based on column Column 1 using expression grel:find(value, /\\d+/)[5]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d.\\d+/)[2]",
+    "onError": "set-to-blank",
+    "newColumnName": "FG min",
+    "columnInsertIndex": 2,
+    "description": "Create column FG min at index 2 based on column Column 1 using expression grel:find(value, /\\d.\\d+/)[2]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d.\\d+/)[3]",
+    "onError": "set-to-blank",
+    "newColumnName": "FG max",
+    "columnInsertIndex": 2,
+    "description": "Create column FG max at index 2 based on column Column 1 using expression grel:find(value, /\\d.\\d+/)[3]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d.\\d+/)[4]",
+    "onError": "set-to-blank",
+    "newColumnName": "ABV min",
+    "columnInsertIndex": 2,
+    "description": "Create column ABV min at index 2 based on column Column 1 using expression grel:find(value, /\\d.\\d+/)[4]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Vital Statistics",
+                "l": "Vital Statistics"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:find(value, /\\d.\\d+/)[5]",
+    "onError": "set-to-blank",
+    "newColumnName": "ABV max",
+    "columnInsertIndex": 2,
+    "description": "Create column ABV max at index 2 based on column Column 1 using expression grel:find(value, /\\d.\\d+/)[5]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Appearance",
+                "l": "Appearance"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Appearance: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Appearance",
+    "columnInsertIndex": 2,
+    "description": "Create column Appearance at index 2 based on column Column 1 using expression grel:value.split(\"Appearance: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Aroma",
+                "l": "Aroma"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Aroma: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Aroma",
+    "columnInsertIndex": 2,
+    "description": "Create column Aroma at index 2 based on column Column 1 using expression grel:value.split(\"Aroma: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Characteristic Ingredients",
+                "l": "Characteristic Ingredients"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Characteristic Ingredients: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Characteristic Ingredients",
+    "columnInsertIndex": 2,
+    "description": "Create column Characteristic Ingredients at index 2 based on column Column 1 using expression grel:value.split(\"Characteristic Ingredients: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Comments",
+                "l": "Comments"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Comments: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Comments",
+    "columnInsertIndex": 2,
+    "description": "Create column Comments at index 2 based on column Column 1 using expression grel:value.split(\"Comments: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Commercial Examples",
+                "l": "Commercial Examples"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Commercial Examples: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Commercial Examples",
+    "columnInsertIndex": 2,
+    "description": "Create column Commercial Examples at index 2 based on column Column 1 using expression grel:value.split(\"Commercial Examples: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Flavor",
+                "l": "Flavor"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Flavor: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Flavor",
+    "columnInsertIndex": 2,
+    "description": "Create column Flavor at index 2 based on column Column 1 using expression grel:value.split(\"Flavor: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "History",
+                "l": "History"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"History: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "History",
+    "columnInsertIndex": 2,
+    "description": "Create column History at index 2 based on column Column 1 using expression grel:value.split(\"History: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Mouthfeel",
+                "l": "Mouthfeel"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Mouthfeel: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Mouthfeel",
+    "columnInsertIndex": 2,
+    "description": "Create column Mouthfeel at index 2 based on column Column 1 using expression grel:value.split(\"Mouthfeel: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Overall Impression",
+                "l": "Overall Impression"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Overall Impression: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Overall Impression",
+    "columnInsertIndex": 2,
+    "description": "Create column Overall Impression at index 2 based on column Column 1 using expression grel:value.split(\"Overall Impression: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Style Comparison",
+                "l": "Style Comparison"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Style Comparison: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Style Comparison",
+    "columnInsertIndex": 2,
+    "description": "Create column Style Comparison at index 2 based on column Column 1 using expression grel:value.split(\"Style Comparison: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Tags",
+                "l": "Tags"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value.split(\"Tags: \")[0]",
+    "onError": "set-to-blank",
+    "newColumnName": "Tags",
+    "columnInsertIndex": 2,
+    "description": "Create column Tags at index 2 based on column Column 1 using expression grel:value.split(\"Tags: \")[0]"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Column 1",
+          "columnName": "Column 1",
+          "query": "^\\d+[.]",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Column 1",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Family",
+    "columnInsertIndex": 2,
+    "description": "Create column Family at index 2 based on column Column 1 using expression grel:value"
+  },
+  {
+    "op": "core/column-split",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "My_tags",
+          "columnName": "My_tags",
+          "query": "^\\d+[A-Z][.]",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Column 1",
+    "guessCellType": false,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "[.]\\s",
+    "regex": true,
+    "maxColumns": 0,
+    "description": "Split column Column 1 by separator"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 1 5",
+    "description": "Remove column Column 1 5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 1 4",
+    "description": "Remove column Column 1 4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 1 3",
+    "description": "Remove column Column 1 3"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 1 1",
+    "newColumnName": "Style Number",
+    "description": "Rename column Column 1 1 to Style Number"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Column 1 2",
+    "newColumnName": "Style",
+    "description": "Rename column Column 1 2 to Style"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Family",
+    "newColumnName": "Family Description",
+    "description": "Rename column Family to Family Description"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "My_tags",
+          "columnName": "My_tags",
+          "query": "^\\d+[.]",
+          "mode": "regex",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "My_tags",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Family",
+    "columnInsertIndex": 1,
+    "description": "Create column Family at index 1 based on column My_tags using expression grel:value"
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "My_tags",
+          "expression": "value",
+          "columnName": "My_tags",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sahti",
+                "l": "Sahti"
+              }
+            },
+            {
+              "v": {
+                "v": "Brown IPA",
+                "l": "Brown IPA"
+              }
+            },
+            {
+              "v": {
+                "v": "Belgian IPA",
+                "l": "Belgian IPA"
+              }
+            },
+            {
+              "v": {
+                "v": "Lichtenhainer",
+                "l": "Lichtenhainer"
+              }
+            },
+            {
+              "v": {
+                "v": "Rye IPA",
+                "l": "Rye IPA"
+              }
+            },
+            {
+              "v": {
+                "v": "Red IPA",
+                "l": "Red IPA"
+              }
+            },
+            {
+              "v": {
+                "v": "Gose",
+                "l": "Gose"
+              }
+            },
+            {
+              "v": {
+                "v": "Roggenbier",
+                "l": "Roggenbier"
+              }
+            },
+            {
+              "v": {
+                "v": "Kentucky Common",
+                "l": "Kentucky Common"
+              }
+            },
+            {
+              "v": {
+                "v": "Piwo Grodziskie",
+                "l": "Piwo Grodziskie"
+              }
+            },
+            {
+              "v": {
+                "v": "White IPA",
+                "l": "White IPA"
+              }
+            },
+            {
+              "v": {
+                "v": "London Brown Ale",
+                "l": "London Brown Ale"
+              }
+            },
+            {
+              "v": {
+                "v": "Pre-Prohibition Lager",
+                "l": "Pre-Prohibition Lager"
+              }
+            },
+            {
+              "v": {
+                "v": "Pre-Prohibition Porter",
+                "l": "Pre-Prohibition Porter"
+              }
+            },
+            {
+              "v": {
+                "v": "Black IPA",
+                "l": "Black IPA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "baseColumnName": "My_tags",
+    "expression": "grel:value",
+    "onError": "set-to-blank",
+    "newColumnName": "Sub-style",
+    "columnInsertIndex": 1,
+    "description": "Create column Sub-style at index 1 based on column My_tags using expression grel:value"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Family",
+      "Family Description",
+      "Style Number",
+      "Style",
+      "Sub-style",
+      "Overall Impression",
+      "Aroma",
+      "Appearance",
+      "Flavor",
+      "Mouthfeel",
+      "Comments",
+      "History",
+      "Characteristic Ingredients",
+      "Style Comparison",
+      "OG min",
+      "OG max",
+      "FG min",
+      "FG max",
+      "ABV min",
+      "ABV max",
+      "IBU min",
+      "IBU max",
+      "Commercial Examples",
+      "Tags",
+      "My_tags",
+      "Column 1"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Style",
+          "expression": "isBlank(value)",
+          "columnName": "Style",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Style",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Style using expression \"\""
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Sub-style",
+          "expression": "isBlank(value)",
+          "columnName": "Sub-style",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Sub-style",
+    "expression": "\"\"",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Sub-style using expression \"\""
+  },
+  {
+    "op": "core/column-addition",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "baseColumnName": "Style",
+    "expression": "grel:cells[\"Style\"].value + cells[\"Sub-style\"].value",
+    "onError": "set-to-blank",
+    "newColumnName": "Ranking Styles",
+    "columnInsertIndex": 4,
+    "description": "Create column Ranking Styles at index 4 based on column Style using expression grel:cells[\"Style\"].value + cells[\"Sub-style\"].value"
+  },
+  {
+    "op": "core/column-reorder",
+    "columnNames": [
+      "Ranking Styles",
+      "Style Number",
+      "Style",
+      "Sub-style",
+      "Family",
+      "Family Description",
+      "Overall Impression",
+      "Aroma",
+      "Appearance",
+      "Flavor",
+      "Mouthfeel",
+      "Comments",
+      "History",
+      "Characteristic Ingredients",
+      "Style Comparison",
+      "OG min",
+      "OG max",
+      "FG min",
+      "FG max",
+      "ABV min",
+      "ABV max",
+      "IBU min",
+      "IBU max",
+      "Commercial Examples",
+      "Tags",
+      "My_tags",
+      "Column 1"
+    ],
+    "description": "Reorder columns"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Ranking Styles",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Ranking Styles"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Family",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Family"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Family Description",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Family Description"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Overall Impression",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Overall Impression"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Aroma",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Aroma"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Appearance",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Appearance"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Flavor",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Flavor"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Mouthfeel",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Mouthfeel"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Comments",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Comments"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "History",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column History"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Characteristic Ingredients",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Characteristic Ingredients"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Style Comparison",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Style Comparison"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "OG min",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column OG min"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "OG max",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column OG max"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "FG min",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column FG min"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "FG max",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column FG max"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "ABV min",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column ABV min"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "ABV max",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column ABV max"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "IBU min",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column IBU min"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "IBU max",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column IBU max"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Commercial Examples",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Commercial Examples"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Tags",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Tags"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "My_tags",
+    "description": "Remove column My_tags"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column 1",
+    "description": "Remove column Column 1"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Sub-style",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Sub-style"
+  },
+  {
+    "op": "core/multivalued-cell-join",
+    "columnName": "Family Description",
+    "keyColumnName": "Ranking Styles",
+    "separator": "",
+    "description": "Join multi-valued cells in column Family Description"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Family",
+    "description": "Fill down cells in column Family"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Family",
+    "description": "Fill down cells in column Family"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Family Description",
+    "description": "Fill down cells in column Family Description"
+  },
+  {
+    "op": "core/row-removal",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Starred Rows",
+          "expression": "row.starred",
+          "columnName": "",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": true,
+                "l": "true"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "description": "Remove rows"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Family",
+    "description": "Fill down cells in column Family"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Family",
+    "description": "Fill down cells in column Family"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Family Description",
+    "description": "Fill down cells in column Family Description"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Family",
+    "description": "Fill down cells in column Family"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Family Description",
+    "description": "Fill down cells in column Family Description"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Family",
+          "expression": "value",
+          "columnName": "Family",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "21. IPA",
+                "l": "21. IPA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Style Number",
+    "description": "Fill down cells in column Style Number"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Family",
+          "expression": "value",
+          "columnName": "Family",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "21. IPA",
+                "l": "21. IPA"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Style",
+    "description": "Fill down cells in column Style"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Style Number",
+          "expression": "value",
+          "columnName": "Style Number",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Style Number",
+    "description": "Fill down cells in column Style Number"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Style Number",
+    "description": "Fill down cells in column Style Number"
+  }
+]
